@@ -1,0 +1,129 @@
+@charset "ISO-8859-1";
+
+
+body {
+  font-family: "Poppins",
+ sans-serif;
+  color: #0c0c0c;
+  background-color: #ffffff;
+}
+a,
+a:hover,
+a:focus {
+  text-decoration: none;
+}
+
+a:hover,
+a:focus {
+  color: initial;
+}
+
+.btn,
+.btn:focus {
+  outline: none !important;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.best_section {
+	-webkit-box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.15);
+	box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.15);
+	padding: 25px 0;
+}
+
+.best_section .book_now {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: justify;
+	-ms-flex-pack: justify;
+	justify-content: space-between;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+}
+
+.best_section .book_now .detail-box h2 {
+	font-weight: bold;
+}
+
+.best_section .book_now .detail-box p {
+	margin: 0;
+}
+
+.best_section .book_now .btn-box a {
+	display: inline-block;
+	padding: 10px 60px;
+	background-color: #f22324;
+	color: #fefdfc;
+	border-radius: #000000;
+	border: 1px solid #f22324;
+}
+
+.best_section .book_now .btn-box a:hover {
+	background-color: transparent;
+	color: #f22324;
+}
+
+
+
+.us_section .us_container .btn-box {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+}
+
+.us_section .us_container .btn-box a {
+	display: inline-block;
+	padding: 10px 65px;
+	background-color: #fefdfc;
+	color: #1a1919;
+	border-radius: 0;
+	border: 1px solid #fefdfc;
+	margin-top: 35px;
+}
+
+.us_section .us_container .btn-box a:hover {
+	background-color: transparent;
+	color: #fefdfc;
+}
+
+
+
+.rent_section .btn-box {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+}
+
+.rent_section .btn-box a {
+	display: inline-block;
+	padding: 10px 65px;
+	background-color: #fefdfc;
+	color: #1a1919;
+	border-radius: 0;
+	border: 1px solid #fefdfc;
+	margin-top: 35px;
+}
+
+.rent_section .btn-box a:hover {
+	background-color: transparent;
+	color: #fefdfc;
+}
+
+
+.container {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+
